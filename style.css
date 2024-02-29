@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    background: #e9e8e8;
+    
+}
+.frame{
+    
+    height: 400px;
+    width: 350px;
+    border-radius: 16px;
+    background: #FFCCCC;
+}
+
+.wrapper{
+    background: #fff;
+    width: 350px;
+    border-radius: 16px;
+
+}
+.form{
+    padding:  70px 0px;
+}
+.form header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.form form .field{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.form form .field label{
+    margin-bottom: 2px;
+}
+.form form .field input{
+    outline: none;
+    
+}
+.form form .input input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 16px;
+    border: 1px solid #cfcdcd;
+    border-radius: 20px;
+
+}
+.form form .button input{
+    margin-top: 13px;
+    height: 40px;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    background: #FFCCCC;
+    border-radius: 20px;
+
+}
+.form .link{
+    text-align: center;
+    color: #fff;
+}
+.form .link a{
+    color: black;
+}
+.framelog{
+    height: 300px;
+    width: 350px;
+    border-radius: 16px;
+    background: #FFCCCC;
+}
+.wrapperlog{
+    background: #fff;
+    width: 350px;
+    border-radius: 16px;
+
+}
+.form form .fieldlog{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.form form .fieldlog input{
+    outline: none;
+    
+}
+
+.form form .inputlog input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 16px;
+    border: 1px solid #cfcdcd;
+    border-radius: 20px;
+
+}
+.form form .buttonlog input{
+    margin-top: 13px;
+    height: 40px;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    background: #FFCCCC;
+    border-radius: 20px;
+
+}
+.form .linklog{
+    text-align: center;
+    color: #fff;
+}
+.form .linklog a{
+    color: black;
+}
+.form .input i{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    color: rgb(128, 125, 125);
+    cursor: pointer;
+}
+.form .buttonlog i{
+    position: absolute;
+    right: 15px;
+    bottom: 95px;
+    color: rgb(128, 125, 125);
+    cursor: pointer;
+}
